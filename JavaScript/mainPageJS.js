@@ -199,52 +199,67 @@ $(document).ready(function () {
                 "id": "first"
             })
             .css({
-                "width": "100px",
-                "height": "100px",
-                "margin": "1% 1% 5% 1%",
-                "background-color": "green"
+                "background-image": "url(../resources/images/backgroundMoney.jpg)"
             })
             .addClass("backgroundChanger")
+            .on({
+                click: function () {
+                    $("body").css({
+                        "background-image" : $(this).css("background-image"),
+                        "opaccity": 0.8
+//                        divafterrrrrrrrrrr
+                });
+                } ,
+                mouseover : function () {
+                    $(this).fadeTo("slow", 0.8);
+                },
+                mouseleave : function () {
+                    $(this).fadeTo("slow", 0.2);
+                }
+            })
             .append(
-            $("<p></p>")
-        ),
+            $("<p>a</p>")),
         $("<div></div>")
+            .attr({
+                "id": "second"
+            })
             .css({
-                "width": "100px",
-                "height": "100px",
-                "margin": "1% 1% 5% 1%",
                 "background-color": "blue"
             })
             .addClass("backgroundChanger")
+            .on({
+                click: function () {
+                    $("body").css("background-color", $(this).css("backgroundColor"));
+                } ,
+                mouseover : function () {
+                    $(this).fadeTo("slow", 0.8);
+                },
+                mouseleave : function () {
+                    $(this).fadeTo("slow", 0.2);
+                }
+            })
             .append(
-            $("<p></p>")),
+            $("<p>b</p>")),
         $("<div></div>")
+            .attr({
+                "id": "third"
+            })
             .css({
-                "width": "100px",
-                "height": "100px",
-                "margin": "1% 1% 5% 1%",
                 "background-color": "yellow"
-
             })
             .addClass("backgroundChanger")
+            .on({
+                click: function () {
+                    $("body").css("background-color", $(this).css("backgroundColor"));
+                } ,
+                mouseover : function () {
+                    $(this).fadeTo("slow", 0.8);
+                },
+                mouseleave : function () {
+                    $(this).fadeTo("slow", 0.2);
+                }
+            })
             .append(
-            $("<p></p>"))
+            $("<p>a</p>"))
     );
-
-
-    $("#first").on({
-        mouseenter: function () {
-            alert("da");
-            $(this).fadeTo('fast', 0.8);
-        },
-        mouseleave: function () {
-            $(this).fadeTo('fast', 0.2);
-        },
-        click: function () {
-            $("#pageBody").css("background-color", this.backgroundColor());
-            console.log("da");
-        }
-    });
-
-
 });
