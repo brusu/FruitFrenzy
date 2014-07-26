@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../JavaScript/firstPageJS.js"></script>
+    <link href="../CSS/firstPageStyle.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="createDivs()" style="background-image: url(../resources/images/casino_card_background_wallpaper_hd_1920x1080_by_giozaga-d7intx0.jpg);">
+<div class="mainDiv">
+    <div id="title">
+        <div class="mainContainer"></div>
+        <p> Fruit Frenzy </p>
+    </div>
+
+    <div id="id_div">
+        <form id="form_id" action="../HTML/mainPage.html" name="myForm" method="POST">
+            <h1>Name</h1> <input type="text" name="name" id="id_name"> <br>
+
+            <h1>Money</h1><input type="text" name="money" id="id_money"><br>
+            <input id="input_id" type="button" value="PLAY" onclick=myFunction()>
+        </form>
+    </div>
+
+    <div id="pictures" class="hidden">
+        <img id="lemon" src="../resources/images/lemon.png" class="hidden">
+        <img id="cherries" src="../resources/images/cherries.png" class="hidden">
+        <img id="melon" src="../resources/images/melon.png" class="hidden">
+        <img id="grapes" src="../resources/images/grapes.png" class="hidden">
+        <img id="7" src="../resources/images/7.png" class="hidden">
+    </div>
+
+    <div id="id_data">
+        <p id="id_p"></p>
+    </div>
+    <div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Slot Machine</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/mainPageStyle.css">
+</head>
+
+<body id="pageBody">
+<div id="mainDiv" class="container">
+    <div id="leftDiv">
+        <div id="environment">
+            <form method="post">
+                <p>
+                    <label>
+                        <input type="radio" name="sameName" value="normal">
+                    </label>Normal<br>
+                    <label>
+                        <input type="radio" name="sameName" value="casino"/>
+                    </label>Casino
+            </form>
+        </div>
+        <div id="name_div">
+            <h2 id="h2_name"></h2>
+        </div>
+        <div id="spinDiv">
+            <img id="myGif" src="../resources/images/7.png"/>
+        </div>
+
+    </div>
+
+    <div id="centerDiv">
+        <div id="topContainer" class="container">
+            <div class="con">
+                <div id="betName">
+                    <h2 class="name">
+                        BET</h2>
+                </div>
+
+                <div id="bet">
+                    <p id="pBetValue"></p>
+                </div>
+            </div>
+            <div class="con">
+                <div id="upBetDiv">
+                    <img id="upImg" alt="up" src="../resources/images/upArrow.png" >
+                </div>
+
+                <div id="downBetDiv">
+                    <img id="downImg" alt="down"
+                         src="../resources/images/down-arrow.jpg">
+                </div>
+            </div>
+            <div class="con">
+                <div id="moneyName">
+                    <h2 class="name">
+                        CREDIT </h2>
+                </div>
+                <div id="money">
+                    <p id="pMoneyValue"></p>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="centralContainer" class="container">
+            <div id='d1'>
+
+            </div>
+            <div id='d2'>
+            </div>
+            <div id='d3'>
+
+            </div>
+        </div>
+
+        <div id="bottomContainer" class="container">
+            <div id="creditWon">
+                <p id="creditWonValue"></p>
+            </div>
+
+            <div id="add100Credit">
+                <button> Add 100 credit</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="rightDiv" class="container">
+        <div id="pictures" class="hidden">
+            <img id="lemon" src="../resources/images/lemon.png" class="hidden">
+            <img id="cherries" src="../resources/images/cherries.png" class="hidden">
+            <img id="melon" src="../resources/images/melon.png" class="hidden">
+            <img id="grapes" src="../resources/images/grapes.png" class="hidden">
+            <img id="7" src="../resources/images/7.png" class="hidden">
+        </div>
+
+
+        <div id="cc" style="font-size: 50px;">
+            <p id="pcc"> SPIN </p>
+        </div>
+        <!--<div id="sideDiv"
+             style="position: relative; left: 250px; top: 510px; width: 300px; height: 100px; margin-right: 10px;">
+            <canvas id="sideCanvas">
+
+            </canvas>
+        </div>-->
+    </div>
+
+
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script rel="stylesheet" type="text/javascript" src="../JavaScript/mainPageJS.js"></script>
+</body>
+</html>

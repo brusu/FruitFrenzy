@@ -1,0 +1,146 @@
+
+#id_div {
+    position: relative;
+    margin: 5%;
+    background-image: url(../resources/images/Casino-Capers-Web-Background-Image-1200x800.jpg);
+}
+
+#input_id {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+#form_id {
+    color: red;
+    width: 60%;
+    height: 50%;
+    margin: 5% 20% 10% 15%;
+    padding: 5%;
+}
+
+#form_id h1 {
+    width: 60%;
+    height: 40%;
+    margin: 5% 10% 5% 10%;
+}
+
+#title {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#id_name {
+    width: 100%;
+    height: 50px;
+    background-color: lightslategrey;
+    opacity: 0.4;
+}
+
+#id_money {
+    width: 100%;
+    height: 50px;
+    background-color: lightslategrey;
+    opacity: 0.4;
+}
+
+input[type = "text"] {
+    font-size: 30px;
+}
+
+.container {
+    width: 50%;
+    height: 80px;
+    margin-left: 25%;
+
+}
+
+.container div {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+}
+
+.container div.block1 {
+
+    width: 80px;
+    height: 80px;
+    background-image: url("../resources/images/cherries.png");
+    background-size: contain;
+    opacity: 0.2;
+
+}
+
+.container div.block2 {
+
+    width: 80px;
+    height: 80px;
+    background-image: url("../resources/images/lemon.png");
+    background-size: contain;
+    opacity: 0.2;
+}
+
+.container div.block3 {
+    width: 80px;
+    height: 80px;
+    background-image: url("../resources/images/grapes.png");
+    background-size: contain;
+    opacity: 0.2;
+}
+
+.container div.block4 {
+    width: 80px;
+    height: 80px;
+    background-image: url("../resources/images/melon.png");
+    background-size: contain;
+    opacity: 0.2;
+}
+
+.container div.block5 {
+    width: 80px;
+    height: 80px;
+    background-image: url("../resources/images/7.png");
+    background-size: contain;
+    opacity: 0.2;
+}
+
+#id_data {
+    position: absolute;
+    left: 900px;
+    top: 550px;
+
+    width: 300px;
+    height: 50px;
+}
+
+#id_p {
+    font-size: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.mainDiv {
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 50%;
+    height: 80%;
+}
+
+#title p {
+    font-size: 50px;
+    margin: 0 30% 0 30%;
+    width: 40%;
+    position: relative;
+    color: midnightblue;
+
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+}
